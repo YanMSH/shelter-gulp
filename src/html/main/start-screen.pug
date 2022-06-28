@@ -1,0 +1,51 @@
+.start-screen 
+            header 
+                .logo__container 
+                    .logo 
+                        h1.logo__main Cozy House 
+                        span.logo__description Shelter for pets in Boston 
+                    button.header__button(onclick="document.getElementsByClassName('header__menu')[0].classList.toggle('open')") 
+                        <svg class="header__burger" width="30" height="22" viewBox="0 0 30 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <line y1="21" x2="30" y2="21" stroke="#F1CDB3" stroke-width="2" />
+                            <line y1="11" x2="30" y2="11" stroke="#F1CDB3" stroke-width="2" />
+                            <line y1="1" x2="30" y2="1" stroke="#F1CDB3" stroke-width="2" />
+                        </svg>
+                nav.header__menu 
+                    ul
+                        li 
+                            a.active(href="#") About the shelter 
+                        li
+                            a(href="../pets/index.html") Our pets
+                        li
+                            a(href="#help") Help the shelter
+                        li
+                            a(href="#contacts") Contacts
+            .fog.hide 
+            .navigation__container-mobile 
+                .logo__container 
+                    .logo 
+                        h1.logo__main Cozy House 
+                        span.logo__description Shelter for pets in Boston 
+                    button.header__button(onclick="document.getElementsByClassName('header__menu')[0].classList.toggle('open')")
+                    <svg class="header__burger" width="30" height="22" viewBox="0 0 30 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <line y1="21" x2="30" y2="21" stroke="#F1CDB3" stroke-width="2" />
+                        <line y1="11" x2="30" y2="11" stroke="#F1CDB3" stroke-width="2" />
+                        <line y1="1" x2="30" y2="1" stroke="#F1CDB3" stroke-width="2" />
+                    </svg>
+                .navigation__menu-mobile 
+                    ul 
+                        li 
+                            a.active(href="#") About the shelter 
+                        li
+                            a(href="../pets/index.html") Our pets
+                        li 
+                            a(href="#help") Help the shelter 
+                        li 
+                            a(href="#contacts") Contacts 
+            .start-screen__content 
+                .start-screen__text 
+                    .start-screen__text-title Not only people <br/> need a house 
+                    .start-screen__text-text We offer to give a chance to a little and nice puppy with an            extremely wide and open heart. He or she will love you more than            anybody else in the world, you will see!
+                    button.start-screen__text-button Make a friend 
+                .start-screen_image 
+                    img.footer__pic(src="./img/start-screen-puppy.png" alt="Picture of a puppy")

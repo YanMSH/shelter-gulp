@@ -1,0 +1,32 @@
+$primary-color: #f1cdb3;
+$color-primary-light: #fddcc4;
+$color-light-xl: #ffffff;
+$color-light-l: #f6f6f6;
+$color-light-s: #fafafa;
+$color-dark-3xl: #292929;
+$color-dark-xl: #4c4c4c;
+$color-dark-l: #545454;
+$color-dark-s: #cdcdcd;
+$color-dark-m: #b2b2b2;
+
+$wrapper-width-desktop: 1280px;
+$container-width-desktop: 93.75%;
+$logo-font-size: 32px;
+$logo-font-size-desc: 13px;
+%georgia {
+  font-family: "Georgia";
+  font-style: normal;
+  font-weight: 400;
+}
+
+%arial {
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 400;
+}
+
+%arial-light {
+  font-family: "Arial Light";
+  font-style: italic;
+  font-weight: 300;
+}
