@@ -1,0 +1,99 @@
+@import 'constants.scss';
+
+.popup__container {
+    position: fixed;
+    left: 550px;
+    top: 136px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    width: 952px;
+    height: 552px;
+    //border:1px dashed black;
+  }
+  .popup__button {
+    cursor: pointer;
+    align-self: flex-end;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    border: 2px solid #f1cdb3;
+    &:hover {
+      background-color: $color-primary-light;
+      border: none;
+    }
+  }
+  .popup__content {
+    //border:1px dotted green;
+    background-color: $color-light-s;
+    display: flex;
+    align-self: flex-start;
+    flex-direction: row;
+    width: 900px;
+    height: 500px;
+    box-shadow: 0px 2px 35px 14px rgba(13, 13, 13, 0.04);
+    border-radius: 9px;
+  }
+  .popup__pic {
+    //background:teal;
+    width: 500px;
+    height: 500px;
+    border-radius: 9px 0 0 9px;
+  }
+  .popup__text {
+    width: 400px;
+    margin-left: 29px;
+  }
+  
+  .popup__title {
+    font-family: "Georgia";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 130%;
+    letter-spacing: 0.06em;
+    margin-bottom: 0;
+  }
+  .popup__subtitle {
+    margin-top: 16px;
+    font-family: "Georgia";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 115%;
+    letter-spacing: 0.06em;
+  }
+  .popup__description {
+    font-family: "Georgia";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 110%;
+    letter-spacing: 0.06em;
+    margin-top: 40px;
+    margin-right:20px;
+    margin-bottom: 40px;
+  }
+  
+  .popup__list {
+    font-family: "Georgia";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 110%;
+    letter-spacing: 0.06em;
+    margin-left: 20px;
+    padding: 0;
+  }
+  .popup__list-item {
+    //list-style:none;
+    margin-left: 0;
+    padding: 0;
+  }
+  .popup__list-item::marker {
+    font-size: 0.8em;
+    color: #f1cdb3;
+  }

@@ -9,10 +9,9 @@ $color-dark-l: #545454;
 $color-dark-s: #cdcdcd;
 $color-dark-m: #b2b2b2;
 
-$wrapper-width-desktop: 1280px;
-$container-width-desktop: 93.75%;
-$logo-font-size: 32px;
-$logo-font-size-desc: 13px;
+$mobile-font-size: 25px;
+$mobile-container-size: calc(300 / 320 * 100vw);
+
 %georgia {
   font-family: "Georgia";
   font-style: normal;
@@ -23,10 +22,4 @@ $logo-font-size-desc: 13px;
   font-family: "Arial";
   font-style: normal;
   font-weight: 400;
-}
-
-%arial-light {
-  font-family: "Arial Light";
-  font-style: italic;
-  font-weight: 300;
 }

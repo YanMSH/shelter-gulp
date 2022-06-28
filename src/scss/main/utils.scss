@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+  }
+  body {
+    margin: 0 auto;
+    width: 1280px;
+    overflow-x: hidden;
+  }
+  
+  .noscroll {
+    overflow-y: hidden;
+  }
+
+  .fog {
+    height: 100%;
+    width: 100vw;
+    background-color: rgba(41, 41, 41, 0.6);
+    position: fixed;
+    top: 0;
+    left: 0;
+    //z-index: -1;
+  }
+
+  .hide {
+    display: none;
+  }
