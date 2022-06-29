@@ -57,6 +57,7 @@
           background-color: $color-primary-light;
           border: none;
         }
+        
         .inactive {
           border: 2px solid $color-dark-s;
           svg {
@@ -144,6 +145,12 @@
       }
     }
   }
+
+  .pets__content-stripe{
+    display: flex;
+  }
+
+
 
   .pets__fade {
     @keyframes fade {

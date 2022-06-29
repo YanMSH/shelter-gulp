@@ -193,9 +193,9 @@ const makeCardButton = (id) => {
   return newButton;
 };
 
-let cardButton = document.createElement("button");
-cardButton.innerHTML = "Learn more";
-cardButton.classList.add("pets__card-button");
+// let cardButton = document.createElement("button");
+// cardButton.innerHTML = "Learn more";
+// cardButton.classList.add("pets__card-button");
 
 const addCard = (imgSrc, imgAlt, petName, id) => {
   let newCard = document.createElement("div");
